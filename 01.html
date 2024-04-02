@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+</head>
+<style>
+    .app p {
+        display: inline;
+        /* 使<p>标签表现为内联元素 */
+    }
+</style>
+
+<body>
+
+
+
+
+    <div id="app" class="app"></div>
+    <script src="
+./markdown-it.min.js
+"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+        const md = window.markdownit({
+            highlight: (str, lang) => {
+                // 使用highlight.js对代码进行高亮
+                if (lang && hljs.getLanguage(lang)) {
+                    try {
+                        return `<pre class="hljs"><code>${hljs.highlight(str, { language: lang }).value}</code></pre>`;
+                    } catch (__) {        // 如果无法找到语言，则返回原始代码        return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
+                    }
+                }
+                // 如果没有指定语言，也返回原始代码
+                return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
+            }
+        });
+
+        // 移除段落渲染规则
+        md.renderer.rules.paragraph_open = () => '';
+        md.renderer.rules.paragraph_close = () => '';
+        // 如果你想要自定义段落的渲染方式，可以添加一个新的规则
+        md.core.ruler.push('custom_paragraph', customParagraphRule);
+        function customParagraphRule(state) {
+        }
+
+        // const md = window.markdownit({
+        //     highlight: (str, lang) => {
+        //         if (lang && hljs.getLanguage(lang)) {
+        //             try {
+        //                 return `<pre class="hljs"><code>${hljs.highlight(str, { language: lang }).value}</code></pre>`;
+        //             } catch (__) { }
+        //         } return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
+        //     }
+        // });
+
+        const renderStream = async () => {
+            const response = await fetch('http://127.0.0.1:1010/login');
+            const eventStream = response.body;
+            const eventReader = eventStream.getReader();
+            let markdownContent = "";
+            const messageText = readFromStream(eventReader);
+
+            function readFromStream(reader) {
+                return reader.read().then(({ done, value }) => {
+                    if (done) {
+                        // 流已结束
+                        return;
+                    }
+                    // 处理接收到的Uint8Array数据
+                    processUint8Array(value);
+                    // 继续读取下一批数据
+                    return readFromStream(reader);
+                });
+            }
+
+            const decoder = new TextDecoder(); // 用于解码Uint8Array
+            let buffer = ""; // 用于累积数据的字符串
+            
+            function processUint8Array(value) {
+                let chunk = decoder.decode(value, { stream: true });
+                // 检查字符串是否以"data: "开头，并去除这个前缀
+                if (chunk.startsWith("data: ")) {
+                    chunk = chunk.substring("data: ".length);
+                }
+                // 现在尝试解析JSON
+                try {
+                    const str1 = JSON.stringify(chunk)
+                    const data = JSON.parse(str1);
+                    renderMarkdown(data);
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                }
+            }
+
+            function renderMarkdown(content) {
+                console.log(content);
+                const conObj = JSON.parse(content);
+                const html = (conObj?.text) ? md.render(conObj.text) : '';
+                let markdownText1 = '```javascript\nconsole.log("Hello, World!");\n```';
+                const renderedHtml = md.render(markdownText1);
+                document.getElementById('app').innerHTML += renderedHtml;
+                // document.getElementById('app').innerHTML += html;
+            }
+        }
+
+        renderStream();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1353 @@
+data: {"content":"C# 控制台输出1+1","event":"req","group_id":"co3udasudu688kmfqlq0","id":"co3udasudu688kmfqlqg","refs":[]}
+
+data: {"event":"ping"}
+
+data: {"event":"resp","group_id":"co3udasudu688kmfqlq0","id":"co3udasudu688kmfqlr0"}
+
+data: {"event":"rename","text":"C# 控制台输出字符串或计算结果"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":"在"}
+
+data: {"event":"cmpl","text":"C"}
+
+data: {"event":"cmpl","text":"#"}
+
+data: {"event":"cmpl","text":"中"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"如"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"你"}
+
+data: {"event":"cmpl","text":"想"}
+
+data: {"event":"cmpl","text":"要"}
+
+data: {"event":"cmpl","text":"计"}
+
+data: {"event":"cmpl","text":"算"}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":"+"}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"结"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"并"}
+
+data: {"event":"cmpl","text":"将"}
+
+data: {"event":"cmpl","text":"计"}
+
+data: {"event":"cmpl","text":"算"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":"结"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"输"}
+
+data: {"event":"cmpl","text":"出"}
+
+data: {"event":"cmpl","text":"到"}
+
+data: {"event":"cmpl","text":"控"}
+
+data: {"event":"cmpl","text":"制"}
+
+data: {"event":"cmpl","text":"台"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"你"}
+
+data: {"event":"cmpl","text":"可"}
+
+data: {"event":"cmpl","text":"以"}
+
+data: {"event":"cmpl","text":"使"}
+
+data: {"event":"cmpl","text":"用"}
+
+data: {"event":"cmpl","text":"以"}
+
+data: {"event":"cmpl","text":"下"}
+
+data: {"event":"cmpl","text":"代"}
+
+data: {"event":"cmpl","text":"码"}
+
+data: {"event":"cmpl","text":"："}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"c"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"h"}
+
+data: {"event":"cmpl","text":"a"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"p"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"g"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"S"}
+
+data: {"event":"cmpl","text":"y"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":";"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"a"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"p"}
+
+data: {"event":"cmpl","text":"a"}
+
+data: {"event":"cmpl","text":"c"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"C"}
+
+data: {"event":"cmpl","text":"o"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"o"}
+
+data: {"event":"cmpl","text":"l"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"A"}
+
+data: {"event":"cmpl","text":"p"}
+
+data: {"event":"cmpl","text":"p"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"{"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"c"}
+
+data: {"event":"cmpl","text":"l"}
+
+data: {"event":"cmpl","text":"a"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"P"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"o"}
+
+data: {"event":"cmpl","text":"g"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"a"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"{"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":"a"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"c"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"v"}
+
+data: {"event":"cmpl","text":"o"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"d"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"M"}
+
+data: {"event":"cmpl","text":"a"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"("}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"g"}
+
+data: {"event":"cmpl","text":"["}
+
+data: {"event":"cmpl","text":"]"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"a"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"g"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":")"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"{"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"/"}
+
+data: {"event":"cmpl","text":"/"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"定"}
+
+data: {"event":"cmpl","text":"义"}
+
+data: {"event":"cmpl","text":"两"}
+
+data: {"event":"cmpl","text":"个"}
+
+data: {"event":"cmpl","text":"整"}
+
+data: {"event":"cmpl","text":"数"}
+
+data: {"event":"cmpl","text":"变"}
+
+data: {"event":"cmpl","text":"量"}
+
+data: {"event":"cmpl","text":"并"}
+
+data: {"event":"cmpl","text":"赋"}
+
+data: {"event":"cmpl","text":"值"}
+
+data: {"event":"cmpl","text":"为"}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"b"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"="}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":";"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"b"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"2"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"="}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":";"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"/"}
+
+data: {"event":"cmpl","text":"/"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"计"}
+
+data: {"event":"cmpl","text":"算"}
+
+data: {"event":"cmpl","text":"两"}
+
+data: {"event":"cmpl","text":"个"}
+
+data: {"event":"cmpl","text":"数"}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"和"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"="}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"b"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"+"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"b"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"2"}
+
+data: {"event":"cmpl","text":";"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"/"}
+
+data: {"event":"cmpl","text":"/"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"输"}
+
+data: {"event":"cmpl","text":"出"}
+
+data: {"event":"cmpl","text":"计"}
+
+data: {"event":"cmpl","text":"算"}
+
+data: {"event":"cmpl","text":"结"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"到"}
+
+data: {"event":"cmpl","text":"控"}
+
+data: {"event":"cmpl","text":"制"}
+
+data: {"event":"cmpl","text":"台"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"C"}
+
+data: {"event":"cmpl","text":"o"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"o"}
+
+data: {"event":"cmpl","text":"l"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"."}
+
+data: {"event":"cmpl","text":"W"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"L"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"("}
+
+data: {"event":"cmpl","text":"\""}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":"+"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"结"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"是"}
+
+data: {"event":"cmpl","text":":"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"\""}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"+"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":")"}
+
+data: {"event":"cmpl","text":";"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"}"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"}"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"}"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"这"}
+
+data: {"event":"cmpl","text":"段"}
+
+data: {"event":"cmpl","text":"代"}
+
+data: {"event":"cmpl","text":"码"}
+
+data: {"event":"cmpl","text":"首"}
+
+data: {"event":"cmpl","text":"先"}
+
+data: {"event":"cmpl","text":"定"}
+
+data: {"event":"cmpl","text":"义"}
+
+data: {"event":"cmpl","text":"了"}
+
+data: {"event":"cmpl","text":"两"}
+
+data: {"event":"cmpl","text":"个"}
+
+data: {"event":"cmpl","text":"整"}
+
+data: {"event":"cmpl","text":"数"}
+
+data: {"event":"cmpl","text":"变"}
+
+data: {"event":"cmpl","text":"量"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"b"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"和"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"b"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"2"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"并"}
+
+data: {"event":"cmpl","text":"将"}
+
+data: {"event":"cmpl","text":"它"}
+
+data: {"event":"cmpl","text":"们"}
+
+data: {"event":"cmpl","text":"都"}
+
+data: {"event":"cmpl","text":"初"}
+
+data: {"event":"cmpl","text":"始"}
+
+data: {"event":"cmpl","text":"化"}
+
+data: {"event":"cmpl","text":"为"}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":"。"}
+
+data: {"event":"cmpl","text":"然"}
+
+data: {"event":"cmpl","text":"后"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"通"}
+
+data: {"event":"cmpl","text":"过"}
+
+data: {"event":"cmpl","text":"将"}
+
+data: {"event":"cmpl","text":"这"}
+
+data: {"event":"cmpl","text":"两"}
+
+data: {"event":"cmpl","text":"个"}
+
+data: {"event":"cmpl","text":"变"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":"量"}
+
+data: {"event":"cmpl","text":"相"}
+
+data: {"event":"cmpl","text":"加"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"计"}
+
+data: {"event":"cmpl","text":"算"}
+
+data: {"event":"cmpl","text":"它"}
+
+data: {"event":"cmpl","text":"们"}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"和"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"并"}
+
+data: {"event":"cmpl","text":"将"}
+
+data: {"event":"cmpl","text":"结"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"存"}
+
+data: {"event":"cmpl","text":"储"}
+
+data: {"event":"cmpl","text":"在"}
+
+data: {"event":"cmpl","text":"名"}
+
+data: {"event":"cmpl","text":"为"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"u"}
+
+data: {"event":"cmpl","text":"m"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"变"}
+
+data: {"event":"cmpl","text":"量"}
+
+data: {"event":"cmpl","text":"中"}
+
+data: {"event":"cmpl","text":"。"}
+
+data: {"event":"cmpl","text":"最"}
+
+data: {"event":"cmpl","text":"后"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"使"}
+
+data: {"event":"cmpl","text":"用"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"C"}
+
+data: {"event":"cmpl","text":"o"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"cmpl","text":"o"}
+
+data: {"event":"cmpl","text":"l"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"."}
+
+data: {"event":"cmpl","text":"W"}
+
+data: {"event":"cmpl","text":"r"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"t"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"L"}
+
+data: {"event":"cmpl","text":"i"}
+
+data: {"event":"cmpl","text":"n"}
+
+data: {"event":"cmpl","text":"e"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"方"}
+
+data: {"event":"cmpl","text":"法"}
+
+data: {"event":"cmpl","text":"将"}
+
+data: {"event":"cmpl","text":"计"}
+
+data: {"event":"cmpl","text":"算"}
+
+data: {"event":"cmpl","text":"结"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"输"}
+
+data: {"event":"cmpl","text":"出"}
+
+data: {"event":"cmpl","text":"到"}
+
+data: {"event":"cmpl","text":"控"}
+
+data: {"event":"cmpl","text":"制"}
+
+data: {"event":"cmpl","text":"台"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"输"}
+
+data: {"event":"cmpl","text":"出"}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"文"}
+
+data: {"event":"cmpl","text":"本"}
+
+data: {"event":"cmpl","text":"是"}
+
+data: {"event":"cmpl","text":"\""}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"+"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"1"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"结"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"是"}
+
+data: {"event":"cmpl","text":":"}
+
+data: {"event":"cmpl","text":" "}
+
+data: {"event":"cmpl","text":"2"}
+
+data: {"event":"cmpl","text":"\""}
+
+data: {"event":"cmpl","text":"。"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"\n"}
+
+data: {"event":"cmpl","text":"要"}
+
+data: {"event":"cmpl","text":"运"}
+
+data: {"event":"cmpl","text":"行"}
+
+data: {"event":"cmpl","text":"这"}
+
+data: {"event":"cmpl","text":"段"}
+
+data: {"event":"cmpl","text":"代"}
+
+data: {"event":"cmpl","text":"码"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"你"}
+
+data: {"event":"cmpl","text":"需"}
+
+data: {"event":"cmpl","text":"要"}
+
+data: {"event":"cmpl","text":"将"}
+
+data: {"event":"cmpl","text":"其"}
+
+data: {"event":"cmpl","text":"保"}
+
+data: {"event":"cmpl","text":"存"}
+
+data: {"event":"cmpl","text":"到"}
+
+data: {"event":"cmpl","text":"一"}
+
+data: {"event":"cmpl","text":"个"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"."}
+
+data: {"event":"cmpl","text":"c"}
+
+data: {"event":"cmpl","text":"s"}
+
+data: {"event":"done"}
+
+data: {"event":"cmpl","text":"`"}
+
+data: {"event":"cmpl","text":"文"}
+
+data: {"event":"cmpl","text":"件"}
+
+data: {"event":"cmpl","text":"中"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"然"}
+
+data: {"event":"cmpl","text":"后"}
+
+data: {"event":"ping"}
+
+data: {"event":"cmpl","text":"使"}
+
+data: {"event":"cmpl","text":"用"}
+
+data: {"event":"cmpl","text":"C"}
+
+data: {"event":"cmpl","text":"#"}
+
+data: {"event":"cmpl","text":"编"}
+
+data: {"event":"cmpl","text":"译"}
+
+data: {"event":"cmpl","text":"器"}
+
+data: {"event":"cmpl","text":"进"}
+
+data: {"event":"cmpl","text":"行"}
+
+data: {"event":"cmpl","text":"编"}
+
+data: {"event":"cmpl","text":"译"}
+
+data: {"event":"cmpl","text":"。"}
+
+data: {"event":"cmpl","text":"编"}
+
+data: {"event":"cmpl","text":"译"}
+
+data: {"event":"cmpl","text":"成"}
+
+data: {"event":"cmpl","text":"功"}
+
+data: {"event":"cmpl","text":"后"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"你"}
+
+data: {"event":"cmpl","text":"可"}
+
+data: {"event":"cmpl","text":"以"}
+
+data: {"event":"cmpl","text":"在"}
+
+data: {"event":"cmpl","text":"命"}
+
+data: {"event":"cmpl","text":"令"}
+
+data: {"event":"cmpl","text":"行"}
+
+data: {"event":"cmpl","text":"或"}
+
+data: {"event":"cmpl","text":"者"}
+
+data: {"event":"cmpl","text":"I"}
+
+data: {"event":"cmpl","text":"D"}
+
+data: {"event":"cmpl","text":"E"}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"控"}
+
+data: {"event":"cmpl","text":"制"}
+
+data: {"event":"cmpl","text":"台"}
+
+data: {"event":"cmpl","text":"窗"}
+
+data: {"event":"cmpl","text":"口"}
+
+data: {"event":"cmpl","text":"中"}
+
+data: {"event":"cmpl","text":"运"}
+
+data: {"event":"cmpl","text":"行"}
+
+data: {"event":"cmpl","text":"生"}
+
+data: {"event":"cmpl","text":"成"}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"应"}
+
+data: {"event":"cmpl","text":"用"}
+
+data: {"event":"cmpl","text":"程"}
+
+data: {"event":"cmpl","text":"序"}
+
+data: {"event":"cmpl","text":"，"}
+
+data: {"event":"cmpl","text":"你"}
+
+data: {"event":"cmpl","text":"将"}
+
+data: {"event":"cmpl","text":"看"}
+
+data: {"event":"cmpl","text":"到"}
+
+data: {"event":"cmpl","text":"输"}
+
+data: {"event":"cmpl","text":"出"}
+
+data: {"event":"cmpl","text":"的"}
+
+data: {"event":"cmpl","text":"结"}
+
+data: {"event":"cmpl","text":"果"}
+
+data: {"event":"cmpl","text":"。"}
+
+data: {"event":"all_done"}
