@@ -18,6 +18,7 @@
         margin: 0;
     }
 </style>
+
 <body>
 
     <pre id="app" class="app">
@@ -27,32 +28,29 @@
     <script src="
 ./markdown-it.min.js
 "></script>
-
-    <script>hljs.highlightAll();</script>
-    <script>
-        const md = window.markdownit({
-            linkify: true,
-            highlight(code, language) {
-                const validLang = !!(language && hljs.getLanguage(language))
-                if (validLang) {
-                    const lang = language ?? ''
-                    return highlightBlock(hljs.highlight(lang, code, true).value, lang)
-                }
-                return highlightBlock(hljs.highlightAuto(code).value, '')
-            }
-        });
-
-        function highlightBlock(str, lang) {
-            return `<pre class="pre-code-box"><div class="pre-code-header"><span class="code-block-header__lang">${lang}</span><span class="code-block-header__copy">复制代码</span></div><div class="pre-code"><code class="hljs code-block-body ${lang}">${str}</code></div></pre>`
-        }
-    </script>
+    <!-- <script>hljs.highlightAll();</script> -->
     <script setup>
         const { createApp, ref, reactive, onMounted } = Vue
 
-        const getMdiText = (value) => {
-            return md.render(value)
-        }
         const setup = () => {
+            const md = window.markdownit({
+                linkify: true,
+                highlight(code, language) {
+                    const validLang = !!(language && hljs.getLanguage(language))
+                    if (validLang) {
+                        const lang = language ?? ''
+                        return highlightBlock(hljs.highlight(code,{language:lang, ignoreIllegals:true}).value, lang)
+                    }
+                    return highlightBlock(hljs.highlightAuto(code).value, '')
+                }
+            });
+
+            function highlightBlock(str, lang) {
+                return `<pre class="pre-code-box"><div class="pre-code-header"><span class="code-block-header__lang">${lang}</span><span class="code-block-header__copy">复制代码</span></div><div class="pre-code"><code class="hljs code-block-body ${lang}">${str}</code></div></pre>`
+            }
+            const getMdiText = (value) => {
+                return md.render(value)
+            }
 
             const state = reactive({
                 htmlStr: ''
