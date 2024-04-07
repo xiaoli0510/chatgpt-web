@@ -10,6 +10,8 @@
 <style>
     .app p {
         display: inline;
+        padding:0;
+        margin:0;
         /* 使<p>标签表现为内联元素 */
     }
 </style>
@@ -26,36 +28,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script>
         const md = window.markdownit({
-            highlight: (str, lang) => {
-                // 使用highlight.js对代码进行高亮
+            breaks: true,
+            highlight: function (str, lang) {
                 if (lang && hljs.getLanguage(lang)) {
                     try {
-                        return `<pre class="hljs"><code>${hljs.highlight(str, { language: lang }).value}</code></pre>`;
-                    } catch (__) {        // 如果无法找到语言，则返回原始代码        return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
-                    }
+                        return hljs.highlight(lang, str, true).value;
+                    } catch (__) { }
                 }
-                // 如果没有指定语言，也返回原始代码
-                return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
+
+                return ''; // 使用额外的默认转义
             }
         });
-
-        // 移除段落渲染规则
-        md.renderer.rules.paragraph_open = () => '';
-        md.renderer.rules.paragraph_close = () => '';
-        // 如果你想要自定义段落的渲染方式，可以添加一个新的规则
-        md.core.ruler.push('custom_paragraph', customParagraphRule);
-        function customParagraphRule(state) {
-        }
-
-        // const md = window.markdownit({
-        //     highlight: (str, lang) => {
-        //         if (lang && hljs.getLanguage(lang)) {
-        //             try {
-        //                 return `<pre class="hljs"><code>${hljs.highlight(str, { language: lang }).value}</code></pre>`;
-        //             } catch (__) { }
-        //         } return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
-        //     }
-        // });
 
         const renderStream = async () => {
             const response = await fetch('http://127.0.0.1:1010/login');
@@ -79,7 +62,7 @@
 
             const decoder = new TextDecoder(); // 用于解码Uint8Array
             let buffer = ""; // 用于累积数据的字符串
-            
+
             function processUint8Array(value) {
                 let chunk = decoder.decode(value, { stream: true });
                 // 检查字符串是否以"data: "开头，并去除这个前缀
@@ -97,13 +80,9 @@
             }
 
             function renderMarkdown(content) {
-                console.log(content);
                 const conObj = JSON.parse(content);
                 const html = (conObj?.text) ? md.render(conObj.text) : '';
-                let markdownText1 = '```javascript\nconsole.log("Hello, World!");\n```';
-                const renderedHtml = md.render(markdownText1);
-                document.getElementById('app').innerHTML += renderedHtml;
-                // document.getElementById('app').innerHTML += html;
+                document.getElementById('app').innerHTML += html;
             }
         }
 
