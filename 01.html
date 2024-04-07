@@ -5,89 +5,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
 </head>
 <style>
     .app p {
         display: inline;
-        padding:0;
-        margin:0;
-        /* 使<p>标签表现为内联元素 */
+        padding: 0;
+        margin: 0;
     }
 </style>
-
 <body>
 
-
-
-
-    <div id="app" class="app"></div>
+    <pre id="app" class="app">
+        <p v-html="state.htmlStr"></p>
+    </pre>
+    <script src="https://img.acadsoc.com.cn/lib/vue/2.7/vue.min.js"></script>
     <script src="
 ./markdown-it.min.js
 "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
     <script>
         const md = window.markdownit({
-            breaks: true,
-            highlight: function (str, lang) {
-                if (lang && hljs.getLanguage(lang)) {
-                    try {
-                        return hljs.highlight(lang, str, true).value;
-                    } catch (__) { }
+            linkify: true,
+            highlight(code, language) {
+                const validLang = !!(language && hljs.getLanguage(language))
+                if (validLang) {
+                    const lang = language ?? ''
+                    return highlightBlock(hljs.highlight(lang, code, true).value, lang)
                 }
-
-                return ''; // 使用额外的默认转义
+                return highlightBlock(hljs.highlightAuto(code).value, '')
             }
         });
 
-        const renderStream = async () => {
-            const response = await fetch('http://127.0.0.1:1010/login');
-            const eventStream = response.body;
-            const eventReader = eventStream.getReader();
-            let markdownContent = "";
-            const messageText = readFromStream(eventReader);
+        function highlightBlock(str, lang) {
+            return `<pre class="pre-code-box"><div class="pre-code-header"><span class="code-block-header__lang">${lang}</span><span class="code-block-header__copy">复制代码</span></div><div class="pre-code"><code class="hljs code-block-body ${lang}">${str}</code></div></pre>`
+        }
+    </script>
+    <script setup>
+        const { createApp, ref, reactive, onMounted } = Vue
 
-            function readFromStream(reader) {
-                return reader.read().then(({ done, value }) => {
-                    if (done) {
-                        // 流已结束
-                        return;
+        const getMdiText = (value) => {
+            return md.render(value)
+        }
+        const setup = () => {
+
+            const state = reactive({
+                htmlStr: ''
+            })
+
+            const renderStream = async () => {
+                const response = await fetch('http://127.0.0.1:1010/login');
+                const eventStream = response.body;
+                const eventReader = eventStream.getReader();
+                let markdownContent = "";
+                const messageText = readFromStream(eventReader);
+
+                function readFromStream(reader) {
+                    return reader.read().then(({ done, value }) => {
+                        if (done) {
+                            // 流已结束
+                            return;
+                        }
+                        // 处理接收到的Uint8Array数据
+                        processUint8Array(value);
+                        // 继续读取下一批数据
+                        return readFromStream(reader);
+                    });
+                }
+
+                const decoder = new TextDecoder(); // 用于解码Uint8Array
+                let buffer = ""; // 用于累积数据的字符串
+
+                function processUint8Array(value) {
+                    let chunk = decoder.decode(value, { stream: true });
+                    // 检查字符串是否以"data: "开头，并去除这个前缀
+                    if (chunk.startsWith("data: ")) {
+                        chunk = chunk.substring("data: ".length);
                     }
-                    // 处理接收到的Uint8Array数据
-                    processUint8Array(value);
-                    // 继续读取下一批数据
-                    return readFromStream(reader);
-                });
-            }
-
-            const decoder = new TextDecoder(); // 用于解码Uint8Array
-            let buffer = ""; // 用于累积数据的字符串
-
-            function processUint8Array(value) {
-                let chunk = decoder.decode(value, { stream: true });
-                // 检查字符串是否以"data: "开头，并去除这个前缀
-                if (chunk.startsWith("data: ")) {
-                    chunk = chunk.substring("data: ".length);
+                    // 现在尝试解析JSON
+                    try {
+                        const str1 = JSON.stringify(chunk)
+                        const data = JSON.parse(str1);
+                        renderMarkdown(data);
+                    } catch (error) {
+                        console.error('Error parsing JSON:', error);
+                    }
                 }
-                // 现在尝试解析JSON
-                try {
-                    const str1 = JSON.stringify(chunk)
-                    const data = JSON.parse(str1);
-                    renderMarkdown(data);
-                } catch (error) {
-                    console.error('Error parsing JSON:', error);
+                let html = '';
+                function renderMarkdown(content) {
+                    const conObj = JSON.parse(content);
+                    html += (conObj?.text) ? md.renderInline(conObj.text) : '';
+                    // const html = md.render('\n\n```csharp\nConsole.WriteLine(1 + 1);\n```\n\n');
+                    state.htmlStr = html;
                 }
             }
 
-            function renderMarkdown(content) {
-                const conObj = JSON.parse(content);
-                const html = (conObj?.text) ? md.render(conObj.text) : '';
-                document.getElementById('app').innerHTML += html;
+            renderStream();
+
+            onMounted(() => {
+                state.htmlStr = getMdiText("\n\n```csharp\nConsole.WriteLine(1 + 1);\n```\n\n") //htmlStr就是已经包含html样式的文本
+            })
+
+            return {
+                state
             }
+
         }
 
-        renderStream();
+        new Vue({
+            el: '#app',
+            setup
+        })
+
     </script>
+
+
 </body>
 
 </html>

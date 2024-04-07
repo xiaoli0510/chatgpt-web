@@ -17,12 +17,17 @@ app.get("/login", function (req, res) {
     { data: { event: "ping" } },
     
     { data: { event: "cmpl", text: "\n" } },
+
+    { data: { event: "cmpl", text: "\n" } },
     
-    // { data: { event: "cmpl", text: "`" } },
+    { data: { event: "cmpl", text: "`" } },
     
-    // { data: { event: "cmpl", text: "`" } },
+    { data: { event: "cmpl", text: "`" } },
     
-    // { data: { event: "cmpl", text: "`" } },
+    { data: { event: "cmpl", text: "`" } },
+
+    { data: { event: "cmpl", text: "\n" } },
+
     
     { data: { event: "cmpl", text: "j" } },
     
@@ -64,11 +69,15 @@ app.get("/login", function (req, res) {
     
     { data: { event: "cmpl", text: "\n" } },
     
-    // { data: { event: "cmpl", text: "`" } },
+    { data: { event: "cmpl", text: "`" } },
     
-    // { data: { event: "cmpl", text: "`" } },
+    { data: { event: "cmpl", text: "`" } },
     
-    // { data: { event: "cmpl", text: "`" } },
+    { data: { event: "cmpl", text: "`" } },
+
+    { data: { event: "cmpl", text: "\n" } },
+
+    { data: { event: "cmpl", text: "\n" } },
     
     { data: { event: "all_done" } },
   ];
